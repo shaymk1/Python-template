@@ -1,5 +1,5 @@
-from project_name.base import NAME
+from django_social_auth.base import NAME
 
 
 def test_base():
-    assert NAME == "project_name"
+    assert NAME == "django_social_auth"
